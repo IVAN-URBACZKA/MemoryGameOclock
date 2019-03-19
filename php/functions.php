@@ -4,7 +4,7 @@
     //Connexion à la base de données
     $base = new PDO('mysql:host=localhost; dbname=memorygame', 'root', '');
     //Requète permettant de rechercher dans la base de données le meilleur temps
-    $reponse = $base->query('SELECT ScoreTime FROM score ORDER BY ScoreTime DESC LIMIT 1;');
+    $reponse = $base->query('SELECT ScoreTime FROM score ORDER BY ScoreTime ASC LIMIT 1;');
     while ($donnees = $reponse->fetch())
     {
       //Affichage du meilleur temps
