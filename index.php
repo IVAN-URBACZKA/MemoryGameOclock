@@ -13,7 +13,7 @@
       <p><progress id="avancement" value="0" max="120"></progress></p>
       <div id="compte_a_rebours"> </div>
       <div>
-          <p> Meilleur temps : <?php include('php/functions.php') ; ?> </p>
+          <p> Meilleur temps (secondes) : <?php include('php/functions.php') ; ?>  </p>
       </div>
     </div>
     <div class="card" data-framework="pomme">
