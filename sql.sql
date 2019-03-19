@@ -33,9 +33,9 @@ USE `memorygame`;
 DROP TABLE IF EXISTS `score`;
 CREATE TABLE IF NOT EXISTS `score` (
   `Id` int(11) NOT NULL AUTO_INCREMENT,
-  `ScoreTime` varchar(11) NOT NULL,
+  `ScoreTime` int(11) NOT NULL,
   PRIMARY KEY (`Id`)
-) ENGINE=MyISAM AUTO_INCREMENT=35 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=37 DEFAULT CHARSET=latin1;
 
 --
 -- Déchargement des données de la table `score`
